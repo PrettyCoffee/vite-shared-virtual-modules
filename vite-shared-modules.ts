@@ -21,11 +21,7 @@ const getPluginConfig = (
   moduleMap: Record<string, string>
 ): UserConfig =>
   role === 'provider'
-    ? {
-        optimizeDeps: {
-          include: Object.keys(moduleMap),
-        },
-      }
+    ? {}
     : {
         build: {
           rollupOptions: {
