@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Projects */
+    "composite": true,
+
+    /* Language and Environment */
+    "target": "esnext",
+
+    /* Modules */
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+
+    /* Interop Constraints */
+    "isolatedModules": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["vite.config.ts", "vite-shared-modules.ts"]
+}
